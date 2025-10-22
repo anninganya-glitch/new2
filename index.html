@@ -266,7 +266,7 @@
                 <button id="searchBtn">搜索</button>
             </div>
             <div class="search-hint">
-                例如: example.com 或 https://www.example.com
+                
             </div>
             <div id="message"></div>
         </div>
@@ -311,10 +311,9 @@
 
         // 存储允许跳转的URL列表
         const allowedUrls = {
-            'example.com': 'https://example.com',
-            'www.example.com': 'https://example.com',
-            'google.com': 'https://www.google.com',
-            'www.google.com': 'https://www.google.com'
+            'mygarden.net': 'https://anninganya-glitch.github.io/waybackmachine/',
+            'www.mygarden.net': 'https://anninganya-glitch.github.io/waybackmachine/',
+            'http://www.mygarden.net': 'https://anninganya-glitch.github.io/waybackmachine/',
         };
 
         function normalizeUrl(url) {
